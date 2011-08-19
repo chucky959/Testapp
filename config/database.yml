@@ -1,14 +1,14 @@
 development:
-  adapter: testapp
+  adapter: MongoDB
   host: localhost
-  database: charles
+  database: testappdatabase
 
 test: &TEST
-  adapter: testapp
+  adapter: MongoDB
   host: localhost
-  database: charles_test
+  database: testappdatabase
 
 production:
-  adapter: testapp
+  adapter: MongoDB
   host: localhost
-  database: charles
+  database: testappdatabase

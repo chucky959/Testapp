@@ -1,0 +1,14 @@
+development:
+  adapter: testapp
+  host: localhost
+  database: charles
+
+test: &TEST
+  adapter: testapp
+  host: localhost
+  database: charles_test
+
+production:
+  adapter: testapp
+  host: localhost
+  database: charles
